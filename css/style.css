@@ -1,0 +1,193 @@
+/* 你的自定义样式 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font: 12px/150% Arial, Verdana, "Microsoft YaHei", "微软雅黑";
+  background-color: #fff;
+}
+
+.wrap_qn {
+  width: 754px;
+  margin: 0 auto;
+  height: 1084px;
+  min-height: 100%;
+  background: url(../images/bg.jpg) 50% 0 no-repeat;
+  /* 背景图片居中显示 */
+  background-size: cover;
+  /* 背景图片完全覆盖元素区域 */
+  position: relative;
+}
+
+.bg-image {
+  background-image: url('../images/bg.jpg');
+  min-height: 1080px;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* ... 其他样式 ... */
+.title h2 {
+  padding-top: 142px;
+  line-height: 25px;
+  font-size: 45px;
+  font-family: 'Microsoft YaHei';
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+
+.tx img {
+  width: 120px;
+  height: 150px;
+  background-color: #333;
+}
+
+.bio li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.bio li:nth-child(3n) {
+  margin-bottom: 27px;
+}
+
+.key {
+  color: #0064cb;
+  font-size: 17px;
+}
+
+.value {
+  color: #000;
+  font-size: 17px;
+  padding-left: 16px;
+}
+
+.p05 {
+  padding-top: 48px;
+}
+
+.list-left {
+  padding-left: 108px;
+}
+
+.fvalue {
+  padding-right: 56px;
+}
+
+.fvalue {
+  color: #333;
+  font-size: 15px;
+}
+
+.fkey {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer {
+  font-size: 16px;
+  color: #000;
+}
+
+.bq {
+  text-align: center;
+}
+
+.header01 {
+  margin-top: 43px;
+}
+
+.bt-list {
+  margin-left: 110px;
+}
+
+.sma {
+  margin-top: 50px;
+  margin-left: 95px;
+}
+
+.list-left {
+  padding-left: 31px;
+}
+
+.col,
+.row {
+  padding: 0;
+}
+
+/* 使用 Bootstrap 5 的断点 */
+@media (min-width: 992px) {
+
+  /* 中等屏幕设备 */
+  .container {
+    max-width: 754px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .value {
+    padding-left: 5px;
+  }
+
+  .bg-image {
+    background: url(../images/bg.jpg) 0px 0 no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+
+  .fvalue {
+    padding-right: 25px;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+
+  .bg-image {
+    background: url(../images/bg.jpg) 0px 0 no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+
+  .title h2 {
+    padding-top: 120px;
+    line-height: 25px;
+    font-size: 45px;
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .v-tx img {
+    width: 140px;
+    height: 200px;
+    padding-bottom: 30px;
+  }
+
+
+  .fvalue {
+    padding-right: 25px;
+  }
+
+  .header01 {
+    margin-top: 28px;
+  }
+
+  .bt-list {
+    margin-left: 60px;
+  }
+
+  .key {
+    font-size: 16px;
+  }
+
+  .sma {
+    margin-top: 0px;
+    margin-left: 90px;
+  }
+}
